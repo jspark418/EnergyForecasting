@@ -11,6 +11,7 @@
 * tensorflow 2.6.4
 ### Docker 환경 setup
 * 본 프로젝트는 Ubuntu 18.04.6 LTS, docker 환경에서 진행되었습니다.
+* 사용한 GPU는 RTX A4000, A5000 이며 아래 docker image를 사용하면 CUDA  및 다른 라이브러리 version 충돌 없이 사용 가능합니다.
 * docker image 설치
 ```
 sudo docker pull gcr.io/kaggle-gpu-images/python:v121
