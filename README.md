@@ -16,7 +16,8 @@
 ```
 sudo docker pull gcr.io/kaggle-gpu-images/python:v121
 ```
+* baseline_transformer.py를 실행하면 모델을 실행할 수 있습니다.
 
 ## Models 
 * 현재 feature extractor에 사용된 모델은 transformer 입니다.
-* transformer 외에 다른 모델을 사용하고 싶으면 model.py 에 작성된 모델의 코드를 수정하시면 됩니다.
+* model.py 는 transformer 모델이 들어있는데 코드만 수정하면 다른 모델을 사용할 수 있습니다.
